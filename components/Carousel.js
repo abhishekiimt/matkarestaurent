@@ -56,7 +56,7 @@ const Carousell = () => {
           {SlideData.map((slide) =>{
               return(
                   <div className="max-w-7xl mx-auto flex items-center justify-items-center">
-                      <img src={slide.image_path} alt={slide.title} className='h-4/6 w-full'  />
+                      <img src={slide.image_path} alt={slide.title} className='h-4/6 w-full rounded-xl border-gray-700 p-10'  />
                   </div>
               )
           })}
