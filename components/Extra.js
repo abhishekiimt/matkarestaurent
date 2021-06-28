@@ -146,7 +146,7 @@ const Extra = () => {
             <img
               alt="feature"
               className="object-cover object-center h-full w-full"
-              src="./images/img21.jpg"
+              src="/images/img21.jpg"
             />
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
