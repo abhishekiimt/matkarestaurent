@@ -46,21 +46,9 @@ const Extra = () => {
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                    </svg>
-                  </div>
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full  text-white flex-shrink-0">💚</div>
                   <h2 className="text-gray-900 text-lg title-font font-medium">
-                    Awesome Sweets
+                    Veg 🥬
                   </h2>
                 </div>
                 <div className="flex-grow">
@@ -88,22 +76,11 @@ const Extra = () => {
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                      <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+                    🍖
                   </div>
                   <h2 className="text-gray-900 text-lg title-font font-medium">
-                    Tekha Namkin
+                    Non-veg 🐔
                   </h2>
                 </div>
                 <div className="flex-grow">
@@ -131,23 +108,11 @@ const Extra = () => {
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <circle cx="6" cy="6" r="3"></circle>
-                      <circle cx="6" cy="18" r="3"></circle>
-                      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                    </svg>
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+                    🍴
                   </div>
                   <h2 className="text-gray-900 text-lg title-font font-medium">
-                  Bakery Cakes 
+                  Snaks And Fast food 🥪
                   </h2>
                 </div>
                 <div className="flex-grow">
@@ -181,11 +146,11 @@ const Extra = () => {
             <img
               alt="feature"
               className="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/600x600/edf2f7/a5afbd"
+              src="./images/img21.jpg"
             />
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-            <div className="flex flex-col mb-10 lg:items-start items-center">
+            <div className="flex flex-col mb-10 lg:items-start items-center m-10">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                 <svg
                   fill="none"
@@ -201,29 +166,16 @@ const Extra = () => {
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  Shooting Stars
+                  Vegs 💚
                 </h2>
                 <p className="leading-relaxed text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a className="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                
               </div>
             </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
+            <div className="flex flex-col mb-10 lg:items-start items-center m-10">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                 <svg
                   fill="none"
@@ -241,29 +193,16 @@ const Extra = () => {
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  The Catalyzer
+                  Non-Vegs 🐔
                 </h2>
                 <p className="leading-relaxed text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a className="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                
               </div>
             </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
+            <div className="flex flex-col mb-10 lg:items-start items-center m-10">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                 <svg
                   fill="none"
@@ -280,26 +219,13 @@ const Extra = () => {
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  Neptune
+                  Snaks And Fast food 🍴
                 </h2>
                 <p className="leading-relaxed text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a className="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                
               </div>
             </div>
           </div>

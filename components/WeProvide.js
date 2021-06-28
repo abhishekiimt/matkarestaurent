@@ -1,7 +1,58 @@
+
+
+const ourServices = [
+  {
+    id:1,
+    product: 'Thali',
+    image: './images/img1.jpg'
+  },
+  {
+    id:2,
+    product: 'Snax',
+    image: './images/img2.jpg'
+  },
+  {
+    id:3,
+    product: 'Beverage',
+    image: './images/img3.jpg'
+  },
+  {
+    id:4,
+    product: 'Chinese',
+    image: './images/img4.jpg'
+  },
+  {
+    id:5,
+    product: '44',
+    image: './images/img5.jpg'
+  },
+  {
+    id:6,
+    product: 'Thali',
+    image: './images/img6.jpg'
+  },
+  {
+    id:7,
+    product: 'Thali',
+    image: './images/img7.jpg'
+  },
+  {
+    id:8,
+    product: 'Thali',
+    image: './images/img8.jpg'
+  },
+  {
+    id:9,
+    product: 'Thali',
+    image: './images/img9.jpg'
+  },
+]
+
+
 const WeProvide = () => {
-    return (
-        <div>
-            
+  return (
+    <div>
+
       <section className="text-gray-700 body-font border-t border-gray-200">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -13,145 +64,29 @@ const WeProvide = () => {
             </p>
           </div>
           <div className="flex flex-wrap -m-2">
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://www.easycookingwithmolly.com/wp-content/uploads/2020/05/samosa-recipe.jpg"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    Holden Caulfield
-                  </h2>
-                  <p className="text-gray-500">UI Designer</p>
+            {ourServices.map((provide) => {
+              return (
+                <div className="p-2 lg:w-1/2 md:w-1/2 w-full">
+                  <div className="h-full flex flex-col items-center border-gray-200 border p-4 rounded-lg">
+                    <img
+                      alt="team"
+                      className=" w-11/12 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
+                      src={provide.image}
+                    />
+                    <div className="flex-grow">
+                      <h2 className="text-gray-900 title-font font-medium text-2xl">
+                        {provide.product}
+                      </h2>
+                      <p className="text-gray-500"></p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://www.easycookingwithmolly.com/wp-content/uploads/2020/05/samosa-recipe.jpg"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    Henry Letham
-                  </h2>
-                  <p className="text-gray-500">CTO</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://dummyimage.com/88x88/edf2f7/a5afbd"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    Oskar Blinde
-                  </h2>
-                  <p className="text-gray-500">Founder</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://dummyimage.com/90x90/edf2f7/a5afbd"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    John Doe
-                  </h2>
-                  <p className="text-gray-500">DevOps</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://dummyimage.com/94x94/edf2f7/a5afbd"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    Martin Eden
-                  </h2>
-                  <p className="text-gray-500">Software Engineer</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://dummyimage.com/98x98/edf2f7/a5afbd"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    Boris Kitua
-                  </h2>
-                  <p className="text-gray-500">UX Researcher</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://dummyimage.com/100x90/edf2f7/a5afbd"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    Atticus Finch
-                  </h2>
-                  <p className="text-gray-500">QA Engineer</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://dummyimage.com/104x94/edf2f7/a5afbd"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    Alper Kamu
-                  </h2>
-                  <p className="text-gray-500">System</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
-                  alt="team"
-                  className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
-                  src="https://dummyimage.com/108x98/edf2f7/a5afbd"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
-                    Rodrigo Monchi
-                  </h2>
-                  <p className="text-gray-500">Product Manager</p>
-                </div>
-              </div>
-            </div>
+              )
+            })}
           </div>
         </div>
       </section>
-      
+
       <section className="text-gray-700 body-font border-t border-gray-200">
         <div className="container px-5 py-24 mx-auto">
           <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -182,8 +117,8 @@ const WeProvide = () => {
           </div>
         </div>
       </section>
-        </div>
-    )
+    </div>
+  )
 }
 
 export default WeProvide

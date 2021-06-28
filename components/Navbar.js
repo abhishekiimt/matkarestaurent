@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className={style.header}>
       <div className={style.nav}>
-        <div className={style.logo}>Logo</div>
+        <div className={style.logo}> <Link href='/'>Matka-restO-rant</Link></div>
           <ul className={sidebar ? 'nav-menu active' : 'nav-menu'} onClick={showSidebar}>
             <li className={style.links}>
               <Link href="#">home</Link>
